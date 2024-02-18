@@ -18,6 +18,4 @@ const imageList = document.querySelector(".gallery");
 imageList.insertAdjacentHTML("beforeend", `<li class="list-item"> <img src=${images[0].url} alt=${images[0].alt} class="list-img"> </li>
 <li class="list-item"> <img src=${images[1].url} alt=${images[1].alt} class="list-img"> </li>
 <li class="list-item"> <img src=${images[2].url} alt=${images[2].alt} class="list-img"> </li>
-
-
 `);
