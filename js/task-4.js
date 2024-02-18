@@ -11,8 +11,10 @@ function formHandler(event){
     if (data.email.length===0 || data.password.length===0) {
         alert("All form fields must be filled in");
     }
-console.log(data);
-form.reset();
+    else{
+        console.log(data);
+        form.reset();
+    }
 }
 
 form.addEventListener('submit', formHandler);
